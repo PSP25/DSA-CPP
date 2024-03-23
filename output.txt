@@ -1,8 +1,21 @@
-3 1 2 
-3 1 
-3 2 
-3 
-1 2 
-1 
-2 
+11
 
+10
+goodmorning
+goodmorningmorni
+good goo
+found ood
+found ood
+found od
+-1
+126
+23.67
+x
+10
+y
+12
+z
+13
+x=10
+y=12
+z=13
