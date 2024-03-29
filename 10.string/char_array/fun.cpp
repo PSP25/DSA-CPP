@@ -7,17 +7,23 @@ int main(){
     //1  strlen()
     char s[50]="hello world";
     cout<<strlen(s)<<endl;
+    cout<<endl<<"%%next set of functions"<<endl;
 
+    
     //2  cin.getline()
     char s1[100];
     cin.getline(s1,100);
     cout<<endl<<strlen(s1);
+    cout<<endl<<"%%next set of functions"<<endl;
+
 
     //3  strcat(dentin,source), strncat(destin,source,n)
     char s3[100]="good";
     char s4[100]="morning";
     cout<<endl<<strcat(s3,s4)<<endl; 
     cout<<strncat(s3,s4,5);
+    cout<<endl<<"%%next set of functions"<<endl;
+
 
     //4  strcpy(destin,source), strncpy(destin,source,n)
     char s6[100]="good";
@@ -26,6 +32,8 @@ int main(){
     strcpy(s7,s6);
     strncpy(s8,s6,3);
     cout<<endl<<s7<<" "<<s8;
+    cout<<endl<<"%%next set of functions"<<endl;
+
 
     //5 strstr(main,sub)   //checks for a string in a string
     char s9[100]="good";
@@ -43,9 +51,13 @@ int main(){
         cout<<"found "<<strrchr(s9,'o')<<endl;
     }
     else cout<<"notfound";
+    cout<<endl<<"%%next set of functions"<<endl;
+
 
     //6 strcmp(str1,str2)
     cout<<strcmp(s3,s4)<<endl;
+    cout<<endl<<"%%next set of functions"<<endl;
+
 
     //7 strtol(const char *, char **, int),
     //          strtof(const char *, char **, int)
@@ -53,7 +65,7 @@ int main(){
         char str11[100]="23.67";
     cout<<strtol(str10,NULL,10)<<endl;
     cout<<strtof(str11,NULL)<<endl;
-
+    cout<<endl<<"%%next set of functions"<<endl;
     //8 tokenising   strtok(char* ," ")
     char s12[100]="x=10;y=12;z=13";
     char *token= strtok(s12,"=;");
