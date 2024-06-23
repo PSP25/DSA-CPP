@@ -1,0 +1,22 @@
+ways of inheritance:///look at the notes
+1.publicly
+    class base{
+        contains public,protected,private members
+        ...
+    }
+    class child:public base{
+
+        can access public and protected members of base
+    .......
+        own public
+        own private
+        own protected
+        
+    }
+    class grandchild:public child{
+        can access public and protected members of child
+        ....
+        own public
+        own private
+        own protected
+    }

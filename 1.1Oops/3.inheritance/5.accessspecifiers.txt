@@ -1,0 +1,6 @@
+who has access to what properties of the class?
+3 type of members in a class: private, protected, public
+
+1. object of a class can access: public
+2. derived class(using public) can access: public, protected
+3. base class can access: public,protected,private

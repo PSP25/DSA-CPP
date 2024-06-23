@@ -1,0 +1,9 @@
+// given a class base:
+
+// isA: any object declared isA object of base class.
+//         e.g class rectangle
+//             rectangle r1; //isA object of class rectangle
+    
+// hasA: any class that derived from base class hasA base class property
+//         e.g class rectangle
+//         class table:public rectangle //hasA rectangle property

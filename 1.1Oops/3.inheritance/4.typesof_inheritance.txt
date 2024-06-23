@@ -1,0 +1,40 @@
+majorly 4 types:
+
+1.simple/single: one class derives from a base class
+
+2.heirarchical: two or more class derived from a single base class
+
+3.multilevel: parent -> child -> grandchild
+
+4.multiple: when a class derives from more than one base class
+
+ambiguity of inheritance:(multiple inheritance)
+                    A 
+                    |
+                ----------
+                |         |
+                B         C 
+                |         |
+                 ---- ----
+                     |
+                     D 
+thus if a fun of base class is called in D, the through which path the function will
+executed: B or C 
+
+solution: inherit B and C as virtual public of A 
+            and D as public of B and C 
+
+class A{
+    ......
+};
+
+class B:virtual public A{
+    ......
+};
+class C:virtual public A{
+    ......
+};
+
+class D: public B, public C{
+    ......
+}
